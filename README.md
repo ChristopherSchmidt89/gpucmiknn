@@ -1,5 +1,9 @@
 # gpucmiknn
 
+A research implementation of a concept for GPU-accelerated information theoretic causal discovery, based upon the CMIknn test for conditional independence [^Runge2018].
+The gpucmiknn implementation can be extended to handle different CMI estimators that build upon the concept of knn searches. 
+
+
 ## Installation
 1. setup conda environment
     * install conda
@@ -56,3 +60,7 @@ The following options are available:
 ## License
 
 GPL-3
+
+## References
+[^Runge2018]: CMIknn: J. Runge (2018): Conditional Independence Testing Based on a Nearest-Neighbor Estimator of Conditional Mutual Information. In Proceedings of the 21st International Conference on Artificial Intelligence and Statistics. http://proceedings.mlr.press/v84/runge18a.html
+
