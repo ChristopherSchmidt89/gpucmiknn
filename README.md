@@ -7,7 +7,7 @@
     * execute the corresponding build command
     * activate the conda environment
 2. build cuda code:
-    *in parent directory of this repo: <br>
+    * in parent directory of this repo: <br>
     ```cd pc_adjacency_search```
     * adjust Makefile.config, e.g. (remaining lines can be commented out): <br>
     ```
@@ -28,7 +28,7 @@
 	```pip install -r requirements.txt```
 
 ## Execution
-   *in parent directory of this repo: <br>
+   In parent directory of this repo: <br>
     ```
     cd pc_adjacency_search
 	python main.py -i ./data/coolingData.csv --permutations 100 --process_count 1 -a 0.01 --par_strategy 2 -k 7
