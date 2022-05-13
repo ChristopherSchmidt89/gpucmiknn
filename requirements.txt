@@ -1,0 +1,3 @@
+numpy>=1.17.4
+tigramite==5.0
+torch>=1.4.0
