@@ -13,15 +13,6 @@
 // Used for Global Memory Approach
 #define BLOCK_DIM 8
 #define THREADS_PER_BLOCK 64
-// Used for Shared Memory Approach
-// 70 allows to support up to 100000 observations; 142 would allow for 500000 observations
-#ifndef MAX_K_GKOV
-    #define MAX_K_GKOV 70
-#endif
-// Default to support at least k of 9 (as we require 1 additional value during knn)
-#ifndef MAX_K_MESNER
-    #define MAX_K_MESNER 10
-#endif
 // Default to support at least 1000 observations with factor 0.2
 #ifndef MAX_K_RUNGE
     #define MAX_K_RUNGE 201
